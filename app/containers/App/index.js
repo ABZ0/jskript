@@ -9,14 +9,12 @@
 
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import { createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider } from '@material-ui/styles';
 
 import HomePage from 'containers/HomePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Header from 'components/Header';
-
-import { createMuiTheme, makeStyles } from '@material-ui/core/styles';
-import { ThemeProvider } from '@material-ui/styles';
-
 import GlobalStyle from '../../global-styles';
 
 const theme = createMuiTheme({
@@ -26,15 +24,6 @@ const theme = createMuiTheme({
     },
     secondary: {
       main: '#ffcb05',
-    },
-    error: {
-      main: '#dc3545',
-    },
-    success: {
-      main: '#28a745',
-    },
-    textPrimary: {
-      main: '#ffffff',
     },
   },
   overrides: {
@@ -46,16 +35,9 @@ const theme = createMuiTheme({
   },
 });
 
-const useStyles = makeStyles(() => ({
-  root: {
-    // backgroundColor: '#F2F3F5',
-  },
-}));
-
 export default function App() {
-  const classes = useStyles();
   return (
-    <div className={classes.root}>
+    <div>
       <ThemeProvider theme={theme}>
         <Header />
         <Switch>

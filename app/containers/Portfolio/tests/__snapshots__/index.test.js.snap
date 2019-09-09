@@ -1,0 +1,156 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Portfolio /> Should render and match the snapshot 1`] = `
+<div
+  class="makeStyles-root-168"
+>
+  <h3
+    class="makeStyles-portfolioTitle-159"
+  >
+    <span>
+      OUR LATEST WORK
+    </span>
+  </h3>
+  <div
+    class="MuiContainer-root makeStyles-portfolio-158 MuiContainer-maxWidthLg"
+  >
+    <div
+      class="MuiGrid-root makeStyles-projectPicture-160 MuiGrid-container"
+    >
+      <img
+        alt="project preview"
+        class="makeStyles-pic-164"
+        src="IMAGE_MOCK"
+      />
+    </div>
+    <div
+      class="MuiGrid-root makeStyles-projectDetails-161 MuiGrid-item MuiGrid-grid-xs-9"
+    >
+      <h1
+        class="makeStyles-projectTitle-166"
+      >
+        <span>
+          Project Zero
+        </span>
+      </h1>
+      <p
+        class="makeStyles-projectText-167"
+      >
+        <span>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec scelerisque nibh, vitae dignissim nisi. Nullam velit mi, ullamcorper bibendum laoreet eu, luctus sed tortor.
+        </span>
+      </p>
+      <div
+        class="MuiGrid-root makeStyles-projectBtn-162"
+      >
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root makeStyles-Btn-163 MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge"
+          href="#pricing"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <span>
+              preview
+            </span>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeLarge"
+          href="#pricing"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <span>
+              visit
+            </span>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+  <hr
+    class="MuiDivider-root makeStyles-divider-165"
+  />
+  <div
+    class="MuiContainer-root makeStyles-portfolio-158 MuiContainer-maxWidthLg"
+  >
+    <div
+      class="MuiGrid-root makeStyles-projectPicture-160 MuiGrid-container"
+    >
+      <img
+        alt="project preview"
+        class="makeStyles-pic-164"
+        src="IMAGE_MOCK"
+      />
+    </div>
+    <div
+      class="MuiGrid-root makeStyles-projectDetails-161 MuiGrid-item MuiGrid-grid-xs-9"
+    >
+      <h1
+        class="makeStyles-projectTitle-166"
+      >
+        <span>
+          Project Zero
+        </span>
+      </h1>
+      <p
+        class="makeStyles-projectText-167"
+      >
+        <span>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec scelerisque nibh, vitae dignissim nisi. Nullam velit mi, ullamcorper bibendum laoreet eu, luctus sed tortor.
+        </span>
+      </p>
+      <div
+        class="MuiGrid-root makeStyles-projectBtn-162"
+      >
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root makeStyles-Btn-163 MuiButton-contained MuiButton-containedPrimary MuiButton-sizeLarge"
+          href="#pricing"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <span>
+              preview
+            </span>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+        <a
+          aria-disabled="false"
+          class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeLarge"
+          href="#pricing"
+          tabindex="0"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            <span>
+              visit
+            </span>
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

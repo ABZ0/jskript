@@ -1,6 +1,6 @@
 /**
  *
- * Tests for Header
+ * Tests for Hero
  *
  * @see https://github.com/react-boilerplate/react-boilerplate/tree/master/docs/testing
  *
@@ -11,15 +11,16 @@ import { render } from 'react-testing-library';
 import { IntlProvider } from 'react-intl';
 // import 'jest-dom/extend-expect'; // add some helpful assertions
 
-import Header from '../index';
+import { Hero } from '../index';
 import { DEFAULT_LOCALE } from '../../../i18n';
 
-describe('<Header />', () => {
+describe('<Hero />', () => {
   it('Expect to not log errors in console', () => {
     const spy = jest.spyOn(global.console, 'error');
+    const dispatch = jest.fn();
     render(
       <IntlProvider locale={DEFAULT_LOCALE}>
-        <Header />
+        <Hero dispatch={dispatch} />
       </IntlProvider>,
     );
     expect(spy).not.toHaveBeenCalled();
@@ -34,12 +35,12 @@ describe('<Header />', () => {
    *
    * @see {@link https://jestjs.io/docs/en/api#testskipname-fn}
    */
-  it.skip('Should render and match the snapshot', () => {
+  it('Should render and match the snapshot', () => {
     const {
       container: { firstChild },
     } = render(
       <IntlProvider locale={DEFAULT_LOCALE}>
-        <Header />
+        <Hero />
       </IntlProvider>,
     );
     expect(firstChild).toMatchSnapshot();

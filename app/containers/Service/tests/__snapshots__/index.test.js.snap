@@ -1,0 +1,458 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Service /> Should render and match the snapshot 1`] = `
+<div>
+  <div
+    class="MuiGrid-root makeStyles-center-158 MuiGrid-container"
+  >
+    <div
+      class="MuiGrid-root makeStyles-center-158 MuiGrid-item MuiGrid-grid-xs-1"
+    >
+      <button
+        class="MuiButtonBase-root MuiIconButton-root"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root makeStyles-arrow-162"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M0 0h24v24H0V0z"
+              fill="none"
+              opacity=".87"
+            />
+            <path
+              d="M16.62 2.99c-.49-.49-1.28-.49-1.77 0L6.54 11.3c-.39.39-.39 1.02 0 1.41l8.31 8.31c.49.49 1.28.49 1.77 0s.49-1.28 0-1.77L9.38 12l7.25-7.25c.48-.48.48-1.28-.01-1.76z"
+            />
+          </svg>
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <div
+      class="MuiGrid-root makeStyles-services-159 MuiGrid-item MuiGrid-grid-xs-10"
+    >
+      <div
+        class="alice-carousel"
+      >
+        <div>
+          <div
+            class="alice-carousel__wrapper"
+            style="padding-left: 0px; padding-right: 0px;"
+          >
+            <ul
+              class="alice-carousel__stage"
+              style="transition: transform 0ms ease-out; transform: translate3d(0px, 0, 0);"
+            >
+              <li
+                class="alice-carousel__stage-item"
+                style="width: 0px;"
+              >
+                <div
+                  class="makeStyles-carousel-160"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-icon-163"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M19 3h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm1 14H8c-.55 0-1-.45-1-1s.45-1 1-1h5c.55 0 1 .45 1 1s-.45 1-1 1zm3-4H8c-.55 0-1-.45-1-1s.45-1 1-1h8c.55 0 1 .45 1 1s-.45 1-1 1zm0-4H8c-.55 0-1-.45-1-1s.45-1 1-1h8c.55 0 1 .45 1 1s-.45 1-1 1z"
+                    />
+                  </svg>
+                  <h4>
+                    <span>
+                      WEBSITE AUDIT
+                    </span>
+                  </h4>
+                  <p>
+                    <span>
+                      Looking to improve your page performance, SEO, or user experience? Request a free audit.
+                    </span>
+                  </p>
+                </div>
+              </li>
+              <li
+                class="alice-carousel__stage-item"
+                style="width: 0px;"
+              >
+                <div
+                  class="makeStyles-carousel-160"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-icon-163"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M4.2 17.78l5.3-5.3 3.25 3.25c.41.41 1.07.39 1.45-.04l7.17-8.07c.35-.39.33-.99-.04-1.37-.4-.4-1.07-.39-1.45.04l-6.39 7.18-3.29-3.29a.9959.9959 0 0 0-1.41 0l-6.09 6.1c-.39.39-.39 1.02 0 1.41l.09.09c.39.39 1.03.39 1.41 0z"
+                    />
+                  </svg>
+                  <h4>
+                    <span>
+                      ANALYTICS
+                    </span>
+                  </h4>
+                  <p>
+                    <span>
+                      Get insights into who is browsing your site so that you can make smarter business decisions.
+                    </span>
+                  </p>
+                </div>
+              </li>
+              <li
+                class="alice-carousel__stage-item __active"
+                style="width: 0px;"
+              >
+                <div
+                  class="makeStyles-carousel-160"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-icon-163"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M19 1H9c-1.1 0-2 .9-2 2v2c0 .55.45 1 1 1s1-.45 1-1V4h10v16H9v-1c0-.55-.45-1-1-1s-1 .45-1 1v2c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zM7.01 13.47l-1.92-1.92c-.35-.35-.92-.35-1.27 0s-.35.92 0 1.27l2.47 2.47c.39.39 1.02.39 1.41 0l5.85-5.85c.35-.35.35-.92 0-1.27s-.92-.35-1.27 0l-5.27 5.3z"
+                    />
+                  </svg>
+                  <h4>
+                    <span>
+                      MOBILE-FRIENDLY
+                    </span>
+                  </h4>
+                  <p>
+                    <span>
+                      A responsive design makes your website accessible to all users, regardless of their device.
+                    </span>
+                  </p>
+                </div>
+              </li>
+              <li
+                class="alice-carousel__stage-item __active"
+                style="width: 0px;"
+              >
+                <div
+                  class="makeStyles-carousel-160"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-icon-163"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M19 6h-2c0-2.76-2.24-5-5-5S7 3.24 7 6H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-7-3c1.66 0 3 1.34 3 3H9c0-1.66 1.34-3 3-3zm0 10c-2.33 0-4.29-1.59-4.84-3.75-.17-.63.32-1.25.97-1.25.47 0 .85.34.98.8.35 1.27 1.51 2.2 2.89 2.2s2.54-.93 2.89-2.2c.13-.46.51-.8.98-.8.65 0 1.13.62.97 1.25C16.29 11.41 14.33 13 12 13z"
+                    />
+                  </svg>
+                  <h4>
+                    <span>
+                      ECOMMERCE
+                    </span>
+                  </h4>
+                  <p>
+                    <span>
+                      Integration of eCommerce platforms, payment gateways, custom template and more.
+                    </span>
+                  </p>
+                </div>
+              </li>
+              <li
+                class="alice-carousel__stage-item"
+                style="width: 0px;"
+              >
+                <div
+                  class="makeStyles-carousel-160"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-icon-163"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M4.25 19.79c.39.39 1.02.39 1.41 0l.39-.39c.39-.39.38-1.02 0-1.4l-.01-.01a.9959.9959 0 0 0-1.41 0l-.39.39c-.38.4-.38 1.02.01 1.41zM11.99 23H12c.55 0 .99-.44.99-.99v-.96c0-.55-.44-.99-.99-.99h-.01c-.55 0-.99.44-.99.99v.96c0 .55.44.99.99.99zM3.01 11.05H1.99c-.55 0-.99.44-.99.99v.01c0 .55.44.99.99.99H3c.55 0 .99-.44.99-.99v-.01c.01-.55-.43-.99-.98-.99zM15 6.86V3.05c0-.55-.45-1-1-1h-4c-.55 0-1 .45-1 1v3.81c-2.04 1.18-3.32 3.52-2.93 6.13.4 2.61 2.56 4.7 5.18 5.02 3.64.44 6.75-2.4 6.75-5.95 0-2.23-1.21-4.16-3-5.2zm5 5.18v.01c0 .55.44.99.99.99H22c.55 0 .99-.44.99-.99v-.01c0-.55-.44-.99-.99-.99h-1.01c-.55 0-.99.44-.99.99zm-2.06 7.37l.39.39c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41l-.39-.39c-.39-.39-1.02-.38-1.4 0-.4.4-.4 1.02-.01 1.41z"
+                    />
+                  </svg>
+                  <h4>
+                    <span>
+                      DESIGN + DEVELOPMENT
+                    </span>
+                  </h4>
+                  <p>
+                    <span>
+                      Clean, modern designs - optimized for performance, search engines, and converting users to customers.
+                    </span>
+                  </p>
+                </div>
+              </li>
+              <li
+                class="alice-carousel__stage-item"
+                style="width: 0px;"
+              >
+                <div
+                  class="makeStyles-carousel-160"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-icon-163"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M3 17.46v3.04c0 .28.22.5.5.5h3.04c.13 0 .26-.05.35-.15L17.81 9.94l-3.75-3.75L3.15 17.1c-.1.1-.15.22-.15.36zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                    />
+                  </svg>
+                  <h4>
+                    <span>
+                      CONTENT MANAGEMENT
+                    </span>
+                  </h4>
+                  <p>
+                    <span>
+                      User friendly content management system. Easily update content without knowing how to code.
+                    </span>
+                  </p>
+                </div>
+              </li>
+              <li
+                class="alice-carousel__stage-item"
+                style="width: 0px;"
+              >
+                <div
+                  class="makeStyles-carousel-160"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-icon-163"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M19 3h-4.18C14.4 1.84 13.3 1 12 1s-2.4.84-2.82 2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 0c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm1 14H8c-.55 0-1-.45-1-1s.45-1 1-1h5c.55 0 1 .45 1 1s-.45 1-1 1zm3-4H8c-.55 0-1-.45-1-1s.45-1 1-1h8c.55 0 1 .45 1 1s-.45 1-1 1zm0-4H8c-.55 0-1-.45-1-1s.45-1 1-1h8c.55 0 1 .45 1 1s-.45 1-1 1z"
+                    />
+                  </svg>
+                  <h4>
+                    <span>
+                      WEBSITE AUDIT
+                    </span>
+                  </h4>
+                  <p>
+                    <span>
+                      Looking to improve your page performance, SEO, or user experience? Request a free audit.
+                    </span>
+                  </p>
+                </div>
+              </li>
+              <li
+                class="alice-carousel__stage-item"
+                style="width: 0px;"
+              >
+                <div
+                  class="makeStyles-carousel-160"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-icon-163"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M4.2 17.78l5.3-5.3 3.25 3.25c.41.41 1.07.39 1.45-.04l7.17-8.07c.35-.39.33-.99-.04-1.37-.4-.4-1.07-.39-1.45.04l-6.39 7.18-3.29-3.29a.9959.9959 0 0 0-1.41 0l-6.09 6.1c-.39.39-.39 1.02 0 1.41l.09.09c.39.39 1.03.39 1.41 0z"
+                    />
+                  </svg>
+                  <h4>
+                    <span>
+                      ANALYTICS
+                    </span>
+                  </h4>
+                  <p>
+                    <span>
+                      Get insights into who is browsing your site so that you can make smarter business decisions.
+                    </span>
+                  </p>
+                </div>
+              </li>
+              <li
+                class="alice-carousel__stage-item"
+                style="width: 0px;"
+              >
+                <div
+                  class="makeStyles-carousel-160"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-icon-163"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M19 1H9c-1.1 0-2 .9-2 2v2c0 .55.45 1 1 1s1-.45 1-1V4h10v16H9v-1c0-.55-.45-1-1-1s-1 .45-1 1v2c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zM7.01 13.47l-1.92-1.92c-.35-.35-.92-.35-1.27 0s-.35.92 0 1.27l2.47 2.47c.39.39 1.02.39 1.41 0l5.85-5.85c.35-.35.35-.92 0-1.27s-.92-.35-1.27 0l-5.27 5.3z"
+                    />
+                  </svg>
+                  <h4>
+                    <span>
+                      MOBILE-FRIENDLY
+                    </span>
+                  </h4>
+                  <p>
+                    <span>
+                      A responsive design makes your website accessible to all users, regardless of their device.
+                    </span>
+                  </p>
+                </div>
+              </li>
+              <li
+                class="alice-carousel__stage-item"
+                style="width: 0px;"
+              >
+                <div
+                  class="makeStyles-carousel-160"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root makeStyles-icon-163"
+                    focusable="false"
+                    role="presentation"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M0 0h24v24H0V0z"
+                      fill="none"
+                    />
+                    <path
+                      d="M19 6h-2c0-2.76-2.24-5-5-5S7 3.24 7 6H5c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-7-3c1.66 0 3 1.34 3 3H9c0-1.66 1.34-3 3-3zm0 10c-2.33 0-4.29-1.59-4.84-3.75-.17-.63.32-1.25.97-1.25.47 0 .85.34.98.8.35 1.27 1.51 2.2 2.89 2.2s2.54-.93 2.89-2.2c.13-.46.51-.8.98-.8.65 0 1.13.62.97 1.25C16.29 11.41 14.33 13 12 13z"
+                    />
+                  </svg>
+                  <h4>
+                    <span>
+                      ECOMMERCE
+                    </span>
+                  </h4>
+                  <p>
+                    <span>
+                      Integration of eCommerce platforms, payment gateways, custom template and more.
+                    </span>
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root makeStyles-center-158 MuiGrid-item MuiGrid-grid-xs-1"
+    >
+      <button
+        class="MuiButtonBase-root MuiIconButton-root"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiIconButton-label"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root makeStyles-arrow-162"
+            focusable="false"
+            role="presentation"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M24 24H0V0h24v24z"
+              fill="none"
+              opacity=".87"
+            />
+            <path
+              d="M7.38 21.01c.49.49 1.28.49 1.77 0l8.31-8.31c.39-.39.39-1.02 0-1.41L9.15 2.98c-.49-.49-1.28-.49-1.77 0s-.49 1.28 0 1.77L14.62 12l-7.25 7.25c-.48.48-.48 1.28.01 1.76z"
+            />
+          </svg>
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+  </div>
+  <br />
+  <div
+    class="MuiGrid-root makeStyles-learn-161 MuiGrid-container"
+  >
+    <a
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeLarge"
+      href="#pricing"
+      tabindex="0"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        <span>
+          Learn more
+        </span>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </a>
+  </div>
+</div>
+`;

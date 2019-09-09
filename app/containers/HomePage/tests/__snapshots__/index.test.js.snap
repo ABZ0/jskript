@@ -1,9 +1,57 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<HomePage /> should render and match the snapshot 1`] = `
-<h1>
-  <span>
-    This is the HomePage container!
-  </span>
-</h1>
+<div
+  id="home"
+>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthSm"
+  >
+    <div
+      class="makeStyles-hero-11"
+    >
+      <h1
+        class="makeStyles-title-12"
+      >
+        <span>
+          WEB DESIGN & MOBILE APP DEVELOPMENT
+        </span>
+      </h1>
+      <p
+        class="makeStyles-subTitle-13"
+      >
+        <span>
+          Specializing in custom web and mobile app development. If you're
+    a business seeking a web presence or looking to hire, contact us
+    
+        </span>
+        <a
+          class="MuiTypography-root MuiLink-root MuiLink-underlineHover makeStyles-contact-14 MuiTypography-colorPrimary"
+          href="#contact"
+        >
+          <span>
+            here.
+          </span>
+        </a>
+      </p>
+      <a
+        aria-disabled="false"
+        class="MuiButtonBase-root MuiButton-root makeStyles-start-15 MuiButton-contained MuiButton-containedSecondary MuiButton-sizeLarge"
+        href="#pricing"
+        tabindex="0"
+      >
+        <span
+          class="MuiButton-label"
+        >
+          <span>
+            Get started
+          </span>
+        </span>
+        <span
+          class="MuiTouchRipple-root"
+        />
+      </a>
+    </div>
+  </div>
+</div>
 `;

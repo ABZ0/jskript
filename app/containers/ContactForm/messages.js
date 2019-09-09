@@ -9,8 +9,20 @@ import { defineMessages } from 'react-intl';
 export const scope = 'app.containers.ContactForm';
 
 export default defineMessages({
-  header: {
-    id: `${scope}.header`,
-    defaultMessage: 'This is the ContactForm container!',
+  contact: {
+    id: `${scope}.contact`,
+    defaultMessage: 'Get in touch',
+  },
+  basic: {
+    id: `${scope}.basic`,
+    defaultMessage: 'Basic',
+  },
+  standard: {
+    id: `${scope}.standard`,
+    defaultMessage: 'Standard',
+  },
+  premium: {
+    id: `${scope}.premium`,
+    defaultMessage: 'Premium',
   },
 });

@@ -1,51 +1,17 @@
 /*
- * HomePage Messages
+ * Service Messages
  *
- * This contains all the text for the HomePage container.
+ * This contains all the text for the Service container.
  */
+
 import { defineMessages } from 'react-intl';
 
-export const scope = 'app.containers.HomePage';
+export const scope = 'app.containers.Service';
 
 export default defineMessages({
-  header: {
-    id: `${scope}.header`,
-    defaultMessage: 'WEB DESIGN & MOBILE APP DEVELOPMENT',
-    // defaultMessage: 'WEB AND MOBILE APP DEVELOPMENT COMPANY',
-  },
-  subtitle: {
-    id: `${scope}.subtitle`,
-    defaultMessage: `Specializing in custom web and mobile app development. If you're
-    a business seeking a web presence or looking to hire, contact us
-    `,
-  },
-  contact: {
-    id: `${scope}.contact`,
-    defaultMessage: 'here.',
-  },
-  start: {
-    id: `${scope}.start`,
-    defaultMessage: 'Get started',
-  },
   learn: {
     id: `${scope}.learn`,
     defaultMessage: 'Learn more',
-  },
-  preview: {
-    id: `${scope}.preview`,
-    defaultMessage: 'preview',
-  },
-  visit: {
-    id: `${scope}.visit`,
-    defaultMessage: 'visit',
-  },
-  choose: {
-    id: `${scope}.choose`,
-    defaultMessage: 'choose',
-  },
-  quote: {
-    id: `${scope}.quote`,
-    defaultMessage: 'request quote *',
   },
   mobileTitle: {
     id: `${scope}.mobileTitle`,
@@ -100,14 +66,5 @@ export default defineMessages({
     id: `${scope}.analyticSubtitle`,
     defaultMessage:
       'Get insights into who is browsing your site so that you can make smarter business decisions.',
-  },
-  projectTitle: {
-    id: `${scope}.projectTitle`,
-    defaultMessage: 'Project Zero',
-  },
-  projectSubtitle: {
-    id: `${scope}.projectSubtitle`,
-    defaultMessage:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec scelerisque nibh, vitae dignissim nisi. Nullam velit mi, ullamcorper bibendum laoreet eu, luctus sed tortor.',
   },
 });

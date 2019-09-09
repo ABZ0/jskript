@@ -23,6 +23,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import ViewListRoundedIcon from '@material-ui/icons/ViewListRounded';
 import PollRoundedIcon from '@material-ui/icons/PollRounded';
 
+import { FormattedMessage } from 'react-intl';
+import messages from './messages';
+
 const useStyles = makeStyles(theme => ({
   grow: {
     flexGrow: 1,
@@ -160,7 +163,7 @@ function Header(props) {
                   className={classes.title}
                   variant="inherit"
                   component={Link}
-                  href="#home"
+                  href="#hero"
                 >
                   jskript.org
                 </Link>
@@ -172,7 +175,7 @@ function Header(props) {
                   component={Link}
                   href="#services"
                 >
-                  SERVICES
+                  <FormattedMessage {...messages.services} />
                 </Link>
                 <Link
                   className={classes.navLink}
@@ -180,7 +183,7 @@ function Header(props) {
                   component={Link}
                   href="#portfolio"
                 >
-                  PORTFOLIO
+                  <FormattedMessage {...messages.portfolio} />
                 </Link>
                 <Link
                   className={classes.navLink}
@@ -188,7 +191,7 @@ function Header(props) {
                   component={Link}
                   href="#pricing"
                 >
-                  PRICING
+                  <FormattedMessage {...messages.pricing} />
                 </Link>
               </div>
               <div className={classes.sectionMobile}>
