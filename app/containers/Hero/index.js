@@ -66,6 +66,7 @@ export function Hero() {
       <Button
         className={classes.start}
         variant="contained"
+        aria-label="get started"
         color="secondary"
         size="large"
         href="#pricing"

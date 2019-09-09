@@ -72,7 +72,11 @@ export function Service({ Carousel }) {
     <div>
       <Grid container className={classes.center}>
         <Grid item xs={1} className={classes.center}>
-          <IconButton type="button" onClick={() => Carousel.slidePrev()}>
+          <IconButton
+            type="button"
+            aria-label="slide previous"
+            onClick={() => Carousel.slidePrev()}
+          >
             <ArrowBackIosRoundedIcon className={classes.arrow} />
           </IconButton>
         </Grid>
@@ -148,14 +152,24 @@ export function Service({ Carousel }) {
           </AliceCarousel>
         </Grid>
         <Grid item xs={1} className={classes.center}>
-          <IconButton type="button" onClick={() => Carousel.slideNext()}>
+          <IconButton
+            type="button"
+            aria-label="slide next"
+            onClick={() => Carousel.slideNext()}
+          >
             <ArrowForwardIosRoundedIcon className={classes.arrow} />
           </IconButton>
         </Grid>
       </Grid>
       <br />
       <Grid container className={classes.learn}>
-        <Button variant="outlined" color="primary" size="large" href="#pricing">
+        <Button
+          variant="outlined"
+          aria-label="learn more"
+          color="primary"
+          size="large"
+          href="#pricing"
+        >
           <FormattedMessage {...messages.learn} />
         </Button>
       </Grid>

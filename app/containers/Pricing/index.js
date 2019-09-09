@@ -100,6 +100,7 @@ export function Pricing() {
           <h1 className={classes.price}>$99</h1>
           <Button
             variant="outlined"
+            aria-label="choose"
             color="default"
             size="large"
             href="#contact"
@@ -139,6 +140,7 @@ export function Pricing() {
           <h1 className={classes.price}>$499</h1>
           <Button
             variant="contained"
+            aria-label="request quote"
             color="primary"
             size="large"
             href="#contact"
@@ -195,6 +197,7 @@ export function Pricing() {
           <Button
             variant="contained"
             color="secondary"
+            aria-label="choose"
             size="large"
             href="#contact"
           >

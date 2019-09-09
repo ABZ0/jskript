@@ -6,6 +6,7 @@ export default function TextInput({ field, form, ...other }) {
   const currentError = form.errors[field.name];
   return (
     <TextField
+      inputProps={{ 'aria-label': 'input field' }}
       required={field.required}
       variant="outlined"
       label={field.label}

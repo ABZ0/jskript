@@ -30,7 +30,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   portfolioTitle: {
-    color: '#a9a9a9',
+    color: '#4D4D4D',
     textAlign: 'center',
     fontSize: '16px',
     fontWeight: 700,
@@ -84,7 +84,7 @@ const useStyles = makeStyles(theme => ({
     color: '#212529',
   },
   projectText: {
-    color: 'gray',
+    color: '#4D4D4D',
   },
   root: {
     paddingTop: theme.spacing(10),
@@ -117,6 +117,7 @@ export function Portfolio() {
           <Grid className={classes.projectBtn}>
             <Button
               className={classes.Btn}
+              aria-label="preview website"
               variant="contained"
               color="primary"
               size="large"
@@ -126,6 +127,7 @@ export function Portfolio() {
             </Button>
             <Button
               variant="outlined"
+              aria-label="visit website"
               color="primary"
               size="large"
               href="#pricing"
@@ -155,6 +157,7 @@ export function Portfolio() {
             <Button
               className={classes.Btn}
               variant="contained"
+              aria-label="preview website"
               color="primary"
               size="large"
               href="#pricing"
@@ -163,6 +166,7 @@ export function Portfolio() {
             </Button>
             <Button
               variant="outlined"
+              aria-label="visit website"
               color="primary"
               size="large"
               href="#pricing"

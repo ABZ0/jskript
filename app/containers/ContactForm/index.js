@@ -66,6 +66,7 @@ export function ContactForm() {
             <Grid container spacing={3}>
               <Grid item xs={6}>
                 <Field
+                  aria-label="enter email"
                   label="Email"
                   type="text"
                   name="email"
@@ -82,7 +83,6 @@ export function ContactForm() {
                   component={SelectPlan}
                 >
                   <option value="" />
-
                   <FormattedMessage {...messages.basic}>
                     {placeholder => <option value={1}>{placeholder}</option>}
                   </FormattedMessage>
@@ -96,6 +96,7 @@ export function ContactForm() {
               </Grid>
               <Grid item xs={12}>
                 <Field
+                  aria-label="type your message"
                   type="textarea"
                   multiline
                   rows={6}

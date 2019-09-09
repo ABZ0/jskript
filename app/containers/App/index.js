@@ -8,6 +8,7 @@
  */
 
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Switch, Route } from 'react-router-dom';
 import { createMuiTheme } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/styles';
@@ -39,6 +40,12 @@ export default function App() {
   return (
     <div>
       <ThemeProvider theme={theme}>
+        <Helmet titleTemplate="%s - Jskript" defaultTitle="Jskript">
+          <meta
+            name="description"
+            content="A website for the jskript company"
+          />
+        </Helmet>
         <Header />
         <Switch>
           <Route exact path="/" component={HomePage} />

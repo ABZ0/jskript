@@ -197,6 +197,7 @@ function Header(props) {
               <div className={classes.sectionMobile}>
                 <IconButton
                   color="inherit"
+                  aria-label="open menu"
                   edge="end"
                   onClick={toggleDrawer('top', true)}
                 >
