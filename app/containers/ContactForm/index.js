@@ -82,15 +82,16 @@ export function ContactForm() {
                   component={SelectPlan}
                 >
                   <option value="" />
-                  <option value={1}>
-                    <FormattedMessage {...messages.basic} />
-                  </option>
-                  <option value={2}>
-                    <FormattedMessage {...messages.standard} />
-                  </option>
-                  <option value={3}>
-                    <FormattedMessage {...messages.premium} />
-                  </option>
+
+                  <FormattedMessage {...messages.basic}>
+                    {placeholder => <option value={1}>{placeholder}</option>}
+                  </FormattedMessage>
+                  <FormattedMessage {...messages.standard}>
+                    {placeholder => <option value={2}>{placeholder}</option>}
+                  </FormattedMessage>
+                  <FormattedMessage {...messages.premium}>
+                    {placeholder => <option value={2}>{placeholder}</option>}
+                  </FormattedMessage>
                 </Field>
               </Grid>
               <Grid item xs={12}>
