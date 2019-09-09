@@ -142,7 +142,7 @@ function Header(props) {
       onKeyDown={toggleDrawer(side, false)}
     >
       <List>
-        {['SERVICES', 'PORTFOLIO', 'PRICING'].map((text, index) => (
+        {['SERVICES', 'PORTFOLIO', 'PRICING'].map(text => (
           <ListItem button key={text} className={classes.listItem}>
             <ListItemText primary={text} />
           </ListItem>
