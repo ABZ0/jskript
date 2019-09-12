@@ -30,7 +30,7 @@ const useStyles = makeStyles(theme => ({
     background: 'linear-gradient(to bottom,#7a19f1,#402e88)',
   },
   form: {
-    marginBottom: theme.spacing(20),
+    margin: theme.spacing(0, 5, 20, 5),
   },
 }));
 

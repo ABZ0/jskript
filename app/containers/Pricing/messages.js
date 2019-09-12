@@ -15,7 +15,7 @@ export default defineMessages({
   },
   quote: {
     id: `${scope}.quote`,
-    defaultMessage: 'request quote *',
+    defaultMessage: 'request quote',
   },
   title: {
     id: `${scope}.title`,

@@ -64,7 +64,7 @@ export function ContactForm() {
         render={({ isSubmitting }) => (
           <Form name="contact" method="POST" data-netlify="true" noValidate>
             <Grid container spacing={3}>
-              <Grid item xs={6}>
+              <Grid item xs={12} md={6}>
                 <Field
                   aria-label="enter email"
                   label="Email"
@@ -75,7 +75,7 @@ export function ContactForm() {
                   component={TextInput}
                 />
               </Grid>
-              <Grid item xs={6}>
+              <Grid item xs={12} md={6}>
                 <Field
                   label="Plan"
                   name="plan"
