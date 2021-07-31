@@ -38,21 +38,6 @@ const theme = createMuiTheme({
 
 export default function App() {
   return (
-    <div>
-      <ThemeProvider theme={theme}>
-        <Helmet titleTemplate="%s - Jskript" defaultTitle="Jskript">
-          <meta
-            name="description"
-            content="A website for the jskript company"
-          />
-        </Helmet>
-        <Header />
-        <Switch>
-          <Route exact path="/" component={HomePage} />
-          <Route component={NotFoundPage} />
-        </Switch>
-        <GlobalStyle />
-      </ThemeProvider>
-    </div>
+    <div></div>
   );
 }
